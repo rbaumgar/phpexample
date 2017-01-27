@@ -24,4 +24,6 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 
+<br><a href="/insert.php">Insert</a>
+<br><a href="/createtable.php">Create Table</a>
 ?> 
