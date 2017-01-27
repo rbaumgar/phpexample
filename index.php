@@ -1,8 +1,8 @@
 <?php
 $servername = getenv('MYSQL_SERVICE_HOST');
-$username = "myuser";
-$password = "mypass";
-$dbname = "mydb";
+$username = "MYSQL_USER";
+$password = "MYSQL_PASSWORD";
+$dbname = "MYSQL_DATABASE";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
