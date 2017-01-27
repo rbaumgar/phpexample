@@ -29,5 +29,6 @@ catch(PDOException $e)
 
 $conn = null;
 
-<br><a href="/">Index</a>
 ?> 
+<br><a href="/">Index</a>
+
