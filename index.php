@@ -1,5 +1,5 @@
  <?php
-$servername = "10.1.4.11";
+$servername = getenv('MYSQL_SERVICE_HOST');
 $username = "myuser";
 $password = "mypass";
 $dbname = "mydb";
