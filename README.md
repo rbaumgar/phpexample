@@ -6,3 +6,4 @@ Insert: insert into mygest
 CreateTable: create table myguest
 
 Hostname is selected from env.MYSQL_SERVICE_HOST
+
